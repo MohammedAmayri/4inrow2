@@ -1,0 +1,32 @@
+##Feature: follwoing the rules
+
+#   Feature Description: when playing 4 in a row the game should always follow the rules
+ 
+##Background: 
+##Given that I go to the game page
+  ##When I choose to play as human against human
+  ##And with two differents names
+  #And click the Börja spela-button
+  #Then the game should begin
+
+#Scenario: the first throw
+  #And as player no 1 should be the only one who get to play first
+
+#Scenario:
+  #When i play 3 moves 
+  #Then i can see that i got 1 yellow and 2 red in the right order
+  
+#Scenario:
+ # When i play 7 times at column no 6
+  #Then i can only see that i got 3 yellow and 3 red daims
+#Scenario:
+  #When i try to play at column number 7
+  #Then i should be able to see my daim in column no 1 instead
+
+  #Scenario:
+  #When we draw
+  #Then should get drawing massege
+
+  Scenario: 
+  When i play one move
+  Then i should be able to get back the position of it

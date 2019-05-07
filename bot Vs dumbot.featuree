@@ -1,0 +1,26 @@
+#Feature:
+ # as i chose to play against the dump bot i should win more times than if i played against the smart one
+
+#Background:
+  #Given that I go to the game page
+  #When I choose to play as dump boot against bot
+  #And with two differents names
+  #And click the Börja spela-button
+  #Then the game should begin
+
+#Scenario: First time
+#Then the smart bot should win 
+
+
+#Scenario: second time
+#Given that i repeated the last scenario for 5 times 
+#Then the smart bot should win 
+#Scenario: third time
+#When the 2 players are done with playing
+#Then the smart bot should win 
+#Scenario: fifth time
+#When the 2 players are done with playing
+#Then the smart bot should win 
+#Scenario: fourth time
+#When the 2 players are done with playing
+#Then the smart bot should win 
